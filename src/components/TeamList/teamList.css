@@ -1,10 +1,11 @@
 .team_container{
-margin: 8px;
+margin: 10px;
+padding: 5px;
 min-width:320px;
 background-color: lightgray;
 text-align: center;
 border-radius: 5px;
-box-shadow: 3px 2px 5px lightgray;
+box-shadow: 3px 2px 2px rgb(51, 39, 39);
 }
 .team_container img{
     max-height:70px ;
@@ -13,7 +14,7 @@ box-shadow: 3px 2px 5px lightgray;
 }
 .team_container > h3{
     font-size: 1.5rem;
-    font-weight: 900;
+    font-weight: 800;
     color: black;
 }
 .team_container h6{
@@ -21,7 +22,10 @@ box-shadow: 3px 2px 5px lightgray;
     color: rgb(53, 41, 41);
 }
 .team_container .btn{
-    color: rgb(46, 10, 1);
-    font-size: 1.2rem;
-    font-weight: 500;
+    background-color: rgb(31, 77, 5);
+    color: rgb(240, 245, 241);
+}
+.team_container .btn:hover{
+    background-color: rgb(70, 3, 44);
+    color: darkgrey;
 }

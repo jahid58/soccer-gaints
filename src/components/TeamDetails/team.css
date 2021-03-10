@@ -1,26 +1,29 @@
 .team{
     height: fit-content;
     width: 100vw;
-    background-color: #0e0a2a;
+    background-color: #19031f;
 }
 .details_heading{
     text-align: center;
+    width: 100%;
     height: 130px;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl0GJFUSEoe6KvzTckbZdim0wZGbTCL9KDMg&usqp=CAU');
-    background-size: cover;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShkzr4YOAWd9Fw4ErVkWHhWBLy6vOT-OiT6Q&usqp=CAU');
     background-position: center;
+    background-size: cover;
+    opacity: .8;
+    
 }
 .details_heading img{
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 120px;
   border-radius: 50%;  
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .team_details{
    max-height: 220px;
     margin:20px auto;
     width: 80vw;
-    background-color: #3A42FF;
+    background-color: #07461a;
     border-radius: 20px;
     padding: 10px;
   
@@ -40,7 +43,7 @@
 .info p{
     font-size: .9rem;
     font-weight: 600;
-    color: lightgray;
+    color: rgb(230, 216, 216);
 }
 .team_details img{
     height: 80%;
@@ -49,6 +52,15 @@
 }
 .description{
     margin: 10px;
-    color: lightslategray;
+    color: rgb(171, 191, 211);
     padding: 20px;
+    text-align: center;
+}
+
+footer .icon{
+ border-radius: 60%;
+  margin: 10px; 
+ background-color: lightgray;
+ color: lightseagreen;
+ border: none;
 }

@@ -15,10 +15,10 @@ const Home = () => {
    
     return (
         <div className='league_container'>
-             <h1>Team Tracker</h1>
-            <div className='teams_container d-flex flex-wrap rounded justify-content-center'>
+             <div className="heading"><h1>Soccer Giants</h1></div>
+            <div className='teams_container d-flex flex-wrap justify-content-center'>
                {
-                teams.map(team=>(<TeamList key ={team.idTeam} team={team}></TeamList>))
+               teams && teams.map(team=>(<TeamList key ={team.idTeam} team={team}></TeamList>))
                }  
             </div>
 

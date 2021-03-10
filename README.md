@@ -1,71 +1,55 @@
-# Getting Started with Create React App
+# Simple React JS Project
+# What is the use of this Repo
+This Project is a Simple ReactJS Project which demonstrates the following
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Creating a Component in React
+Making HTTP calls
+Communicating between parent and child component
+Using Bootstrap along with React
+Using Basic Routing in React
+Using react FontAwesome
 
-## Available Scripts
+# Live Application URL
+https://app.netlify.com/sites/quirky-nightingale-eeb1c2/overview
+This URL has the application deployed in
 
-In the project directory, you can run:
+# Prerequisites
+Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
 
-### `npm start`
+Install create-react-app
+Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+npm install -g create-react-app
+Live Application URL
+The Application is deployed in https://app.netlify.com/sites/quirky-nightingale-eeb1c2/overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Click on the link to see the application
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
+In order to run the application Type the following command
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm start
+The Application Runs on localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Application design
+Components
+TeamList Component : This Component displays a list of Team. This Component gets the data from a json api.
 
-### `npm run eject`
+TeamDetails Component : This Component Displays the details of the selected TeamList.This Component gets its data from a api as well. This Component is the Child Component of TeamList Component
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+HTTP client
+axios library is used to make HTTP Calls
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Resources
 
-## Learn More
+ReactJS : Refer to https://reactjs.org/ to understand the concepts of ReactJS
+React FontAwesome: refer to https://FontAwesome.com/
+React Bootstrap : Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-router-jahid58

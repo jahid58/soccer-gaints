@@ -6,7 +6,7 @@ import {
   
 } from "react-router-dom";
 import Home from "./components/Home/Home";
-import Team from "./components/Team/Team";
+import TeamDetails from "./components/TeamDetails/TeamDetails";
 import TeamList from "./components/TeamList/TeamList";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,7 +26,7 @@ function App() {
           <TeamList></TeamList>
         </Route>
          <Route  path="/teamDetails/:id">
-           <Team></Team>
+           <TeamDetails></TeamDetails>
          </Route>
       </Switch>
      </Router>
