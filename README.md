@@ -13,7 +13,7 @@ This Project is a Simple ReactJS Project which demonstrates the following
 
 # Live Application URL
 
-https://app.netlify.com/sites/quirky-nightingale-eeb1c2/overview
+https://quirky-nightingale-eeb1c2.netlify.app/
 This URL has the application deployed in
 
 # Prerequisites
