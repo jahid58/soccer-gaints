@@ -1,0 +1,19 @@
+.league_container h1{
+    text-align: center;
+    height: 120px;
+    background-image: url('https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/282f5093-6046-427b-8bbe-c737c97cabeb');
+    background-size:cover ;
+    color: rgb(14, 5, 5);
+    opacity: .7;
+}
+.teams_container{
+    background-image:linear-gradient(45deg, rgb(33, 33, 56), rgb(20, 67, 78));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+
