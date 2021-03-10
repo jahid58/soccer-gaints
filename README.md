@@ -4,12 +4,12 @@
 
 This Project is a Simple ReactJS Project which demonstrates the following
 
-Creating a Component in React
-Making HTTP calls
-Communicating between parent and child component
-Using Bootstrap along with React
-Using Basic Routing in React
-Using react FontAwesome
+1. Creating Component in React   
+
+2. Communicating between parent and child component  
+3. Using Bootstrap along with React
+4. Using Basic Routing in React
+5. Using react FontAwesome
 
 # Live Application URL
 
@@ -51,5 +51,6 @@ axios library is used to make HTTP Calls
 # Resources
 
 ReactJS : Refer to https://reactjs.org/ to understand the concepts of ReactJS
+React Rout: Refer t to https://reactjs.org/react-router-dom
 React FontAwesome: refer to https://FontAwesome.com/
 React Bootstrap : Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap
