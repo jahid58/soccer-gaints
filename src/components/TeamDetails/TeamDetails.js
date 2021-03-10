@@ -27,7 +27,7 @@ const TeamDetails = () => {
       .then((res) => res.json())
       .then((data) => setDetails(...data.teams));
   }, [id]);
-  console.log(details)
+  console.log(details);
   const {
     strTeam,
     strTeamBadge,

@@ -1,5 +1,7 @@
 # Simple React JS Project
+
 # What is the use of this Repo
+
 This Project is a Simple ReactJS Project which demonstrates the following
 
 Creating a Component in React
@@ -10,10 +12,12 @@ Using Basic Routing in React
 Using react FontAwesome
 
 # Live Application URL
+
 https://app.netlify.com/sites/quirky-nightingale-eeb1c2/overview
 This URL has the application deployed in
 
 # Prerequisites
+
 Install Node JS
 Refer to https://nodejs.org/en/ to install nodejs
 
@@ -26,8 +30,6 @@ The Application is deployed in https://app.netlify.com/sites/quirky-nightingale-
 
 Click on the link to see the application
 
-
-
 Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
 npm install
@@ -37,6 +39,7 @@ npm start
 The Application Runs on localhost:3000
 
 # Application design
+
 Components
 TeamList Component : This Component displays a list of Team. This Component gets the data from a json api.
 
@@ -45,11 +48,8 @@ TeamDetails Component : This Component Displays the details of the selected Team
 HTTP client
 axios library is used to make HTTP Calls
 
-
-
 # Resources
 
 ReactJS : Refer to https://reactjs.org/ to understand the concepts of ReactJS
 React FontAwesome: refer to https://FontAwesome.com/
 React Bootstrap : Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap
-
