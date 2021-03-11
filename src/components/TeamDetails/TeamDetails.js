@@ -39,6 +39,7 @@ const TeamDetails = () => {
     strTwitter,
     strFacebook,
     strInstagram,
+    strTeamBanner
   } = details;
   const teamPoster = strGender === "Male" ? male : female;
 
@@ -49,7 +50,7 @@ const TeamDetails = () => {
 
   return (
     <div className="team">
-      <div className="details_heading">
+      <div className="details_heading" style={{ backgroundImage:`url(${ strTeamBanner})`}}>
         <img src={strTeamBadge} alt="" />
       </div>
       <div className="team_details">
