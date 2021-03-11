@@ -54,7 +54,7 @@ const TeamDetails = () => {
         <img src={strTeamBadge} alt="" />
       </div>
       <div className="team_details">
-        <div className="details d-flex">
+        <div className="details d-md-flex">
           <div className="info">
             <h3>{strTeam}</h3>
             <p>

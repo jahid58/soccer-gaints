@@ -19,7 +19,7 @@
   margin-top: 20px;
 }
 .team_details{
-   max-height: 220px;
+    
     margin:20px auto;
     width: 80vw;
     background-color: #07461a;
@@ -29,25 +29,28 @@
 
 }
 .details{
-    height:240px ;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 .info {
     padding:10px;
 }
 .info h3{
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 5vh;
+    font-weight: 800;
     color: white;
 }
 .info p{
-    font-size: .9rem;
+    font-size: 3vh;
     font-weight: 600;
     color: rgb(230, 216, 216);
 }
 .team_details img{
-    height: 80%;
-    width: 40%;
-    margin-left: auto;
+  max-height:38vh ;
 }
 .description{
     margin: 10px;
@@ -63,3 +66,11 @@ footer .icon{
  color: lightseagreen;
  border: none;
 }
+@media screen and (max-width: 600px) {
+    .team_details img {
+     width: 100%;
+    }
+    .details{
+        text-align: center;
+    }
+  }
